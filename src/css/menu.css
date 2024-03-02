@@ -1,0 +1,23 @@
+#content.menu {
+    width: 50%;
+    margin: 0 auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+
+    gap: 2rem;
+
+    & .dish {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        gap: 1rem;
+
+        & img {
+            width: 15rem;
+            height: 10rem;
+            border-radius: 15px;
+        }
+
+    }
+}

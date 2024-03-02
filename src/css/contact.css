@@ -1,0 +1,22 @@
+#content.contact {
+    width: 30%;
+    margin: 0 auto;
+
+    & form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        flex: 1;
+        
+
+        & input,
+          textarea {
+            background-color: var(--pink-dark);
+            border-radius: 8px;
+        }
+
+        & input {
+            padding: 0.5rem;
+        }
+    }
+}

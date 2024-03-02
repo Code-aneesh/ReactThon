@@ -1,0 +1,10 @@
+#content.about {
+    display: block;
+    width: 50%;
+    margin: 0 auto;
+    padding: 6rem 0;
+
+    & p {
+        margin-top: 2rem;
+    }
+}

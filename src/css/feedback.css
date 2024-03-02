@@ -1,0 +1,50 @@
+#content.feedback {
+    width: 50%;
+    margin: 0 auto;
+
+    & form {
+        display: flex;
+        flex-direction: column;
+        gap: 1.2rem;
+        flex: 1;
+        
+
+        & input,
+          textarea {
+            background-color: var(--pink-dark);
+            border-radius: 8px;
+        }
+
+        & input {
+            padding: 0.5rem;
+        }
+    }
+}
+
+#content.feedback-container {
+        text-align: center;
+        margin-top: 50px;
+      }
+      
+      .rating {
+        font-size: 2em;
+        cursor: pointer;
+      }
+      
+      .rating span {
+        color: #ddd;
+        margin: 0 5px;
+      }
+      
+      .rating span:hover,
+      .rating span:hover ~ span {
+        color: #f7d417;
+      }
+      
+      #feedback-message {
+        font-size: 1.2em;
+        margin-top: 20px;
+      }
+      
+
+
